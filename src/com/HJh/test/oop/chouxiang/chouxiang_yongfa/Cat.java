@@ -1,4 +1,4 @@
-package com.hjh.test.chouxiang.chouxiang_yongfa;
+package com.HJh.test.oop.chouxiang.chouxiang_yongfa;
 
 public class Cat extends Animal {
 

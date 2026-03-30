@@ -1,4 +1,4 @@
-package com.hjh.test.chouxiang.chouxiang_yongfa;
+package com.HJh.test.oop.chouxiang.chouxiang_yongfa;
 //抽象方法：将共性的方法抽取到父类之后。因为每一个子类的方法体是不一样，
 //        所以，在父类中不能确定具体的方法体。该方法就可以定义为抽象方法。
 //抽象类：如果一个类中存在抽象方法，那么该类就必须声明为抽象类，且子类必须重写该方法。

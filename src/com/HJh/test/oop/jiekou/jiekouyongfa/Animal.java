@@ -1,24 +1,16 @@
-package com.HJh.test.oop.chouxiang.chouxiang_yongfa;
+package com.HJh.test.oop.jiekou.jiekouyongfa;
 
 public abstract class Animal {
-    protected String name;
-    protected String color;
-    public  void drink() {
-        System.out.println("在喝水");
-    }
-
-    //定义抽象方法，用于在子类中重写
+    private String name;
+    private String color;
     public abstract void eat();
 
-
-
+    public Animal() {
+    }
 
     public Animal(String name, String color) {
         this.name = name;
         this.color = color;
-    }
-
-    public Animal() {
     }
 
     public String getName() {
