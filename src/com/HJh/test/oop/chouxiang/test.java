@@ -1,4 +1,4 @@
-package com.hjh.test.chouxiang;
+package com.HJh.test.oop.chouxiang;
 
 public class test {
 }

@@ -1,7 +1,5 @@
 package com.HJh.test.oop.neibulei.chenyuanneibulei;
 
-import java.sql.SQLOutput;
-
 /*
 编写成员内部类的注意点：
     1.成员内部类可以被一些修饰符所修饰，比如：private，默认，protected，public，static等
