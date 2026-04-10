@@ -7,7 +7,7 @@ package com.HJh.test.oop.zifuchuan.stringbuilderyongfa;
 //  append（任意类型）  添加数据
 //  reverse()         反转
 //  int length()      获取长度
-//  toString          变回字符串
+//  toString()          变回字符串
 public class test {
     public static void main(String[] args) {
         StringBuilder sb1 = new StringBuilder();
