@@ -11,8 +11,8 @@ package com.HJh.test.oop.jiekou.jiekouyongfa;
 //注意点1：接口不能实例化
 //注意点2：接口的子类（实现类），要么重写接口中所有的抽象方法，要么实现类是一个抽象类
 //注意点3：一个类可以实现多个接口，也可以在继承一个类的同时，实现多个接口
-//public class类名implements接口1，接口2...}
-//public class类名extends父类implements接口1，接口2{...}
+//public class类名implements接口1，接口2 {...}
+//public class类名extends父类implements接口1，接口2 {...}
 
 //接口中成员的特点
 //  成员变量：只能是常量。默认修饰符：public static final
