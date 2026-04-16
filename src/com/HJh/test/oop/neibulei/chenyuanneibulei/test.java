@@ -10,6 +10,8 @@ package com.HJh.test.oop.neibulei.chenyuanneibulei;
 方式二：直接创建
 格式：外部类名.内部类名对象名=外部类对象。内部类对象；
 范例:Outer.Inner oi=new Outer().new Inner();
+                    类比new Outer().name 调用类的成员变量
+                    new Outer().new Inner(); 调用外部类的内部类对象
 */
 public class test {
     public static void main(String[] args) {
@@ -20,7 +22,7 @@ public class test {
         System.out.println(out.getInner());
         System.out.println();
 
-
+        //在堆内存中创建outer2和inner对象，把inner的地址赋给in
         Outer2.Inner in = new Outer2().new Inner();
         in.show();
     }

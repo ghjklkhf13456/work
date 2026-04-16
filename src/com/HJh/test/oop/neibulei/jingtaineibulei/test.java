@@ -14,9 +14,11 @@ public class test {
     public static void main(String[] args) {
         //创建静态内部类对象
         //只要是静态的东西，都可以用类名点直接获取
+
+        //show1是静态内部类的非静态方法，所以要创建对象，因为是静态的内部类可以直接点类名
         Outer2.Inner oi = new Outer2.Inner();
         oi.show1();
-        //静态方法
+        //show2是静态内部类的静态方法
         Outer2.Inner.show2();
 
     }

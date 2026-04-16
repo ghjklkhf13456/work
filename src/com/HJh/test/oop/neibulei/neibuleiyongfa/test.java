@@ -1,6 +1,7 @@
 package com.HJh.test.oop.neibulei.neibuleiyongfa;
 //内部类表示的事物是外部类的一部分
 //内部类单独存在没有任何意义
+//比如汽车里面有发动机
 public class test {
     public static void main(String[] args) {
 

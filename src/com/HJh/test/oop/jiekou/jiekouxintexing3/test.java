@@ -8,7 +8,12 @@ public class test {
 //        格式：private 返回值类型 方法名(参数列表）
 //
 //        第二种：静态的私有方法
-//        作用：为了抽取静态方法中重复代码而出现的
+//        作用：和普通的私有方法作用一样，只是为了抽取静态方法中重复代码而出现的
 //        格式：private static 返回值类型 方法名(参数列表）{}
+
+        InterImpl ii = new InterImpl();
+        //实现类没有重写接口，但是可以调用接口的内容
+        ii.login();
+        ii.register();
     }
 }

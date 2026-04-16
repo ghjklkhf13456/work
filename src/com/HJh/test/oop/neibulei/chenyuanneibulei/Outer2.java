@@ -8,6 +8,7 @@ public class Outer2 {
             int a = 30;
             System.out.println(a);
             System.out.println(this.a);
+            //在内部类中，除了有自己的成员变量和方法，还隐藏着一个指向外部类对象的引用this
             System.out.println(Outer2.this.a);
         }
     }
