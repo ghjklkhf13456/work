@@ -4,7 +4,7 @@ public class test {
     public static void main(String[] args) {
         //枚举项默认值是public static final,因为是static所以直接用类名调用
         Order o1= Order.WAIT_PAY;
-        System.out.println("o1"+o1);
+        System.out.println("o1"+o1);    //调用父类的toString()方法
         System.out.println("o1.getName()"+o1.getName());
 
         switch (o1){

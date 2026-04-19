@@ -1,5 +1,7 @@
 package com.HJh.test.oop.danlileiyongfa.fangfa1;
 //单例类就是只有一个对象的类，不能创建多个对象
+
+//枚举类如果枚举项只有一个，那么枚举类就可以作为单例类
 public class test {
     public static void main(String[] args) {
         //a1和a2指向的是同一个对象
