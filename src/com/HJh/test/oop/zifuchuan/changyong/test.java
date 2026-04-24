@@ -13,7 +13,6 @@ package com.HJh.test.oop.zifuchuan.changyong;
 //      判断是否为空    isEmpty()
 //      转字符数组      toCharArray()
 //      字符数组转字符串 String s3 = new String(chs);
-//      数组转字符串    Arrays.toString(arr) //[1,2,3]
 //      指定位置替换    setCharAt(int index, char ch)
 
 //      大小写转换      toUpperCase()、toLowerCase()
